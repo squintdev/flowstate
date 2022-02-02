@@ -88,8 +88,9 @@ const Tasks = () => {
                       return (
                        
 
-                            <li key={task.content+task.index}className={task.done ? 'w-full py-2 px-4 mb-1 flex justify-between done italic line-through border-b-2 text-3xl' : 'w-full py-2 px-4 mb-1 flex justify-between font-bold border-b-2 text-3xl'}>
-                            {task.content}
+                            <li key={task.content+task.index}className={task.done ? 'w-full py-2 px-4 mb-1 flex justify-between done italic line-through border-b-2 text-xl lg:text-3xl' : 'w-full py-2 px-4 mb-1 flex justify-between font-bold border-b-2 text-xl lg:text-3xl'}>
+                            
+                            {task.content.length > 35 ? task.content.slice(0,35) + '...' : task.content}
                 
                             <input
                                 value={task.done}
