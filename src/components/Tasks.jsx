@@ -95,7 +95,7 @@ const Tasks = () => {
                             <input
                                 value={task.done}
                                 type="checkbox"
-                                className="appearance-none bg-retro-screen border-2 w-6 h-6 checked:bg-retro-shadow"
+                                className="appearance-none bg-retro-screen cursor-pointer border-2 w-6 h-6 checked:bg-retro-shadow"
                                 onChange={addTask(task, index)}
                             />
                 
