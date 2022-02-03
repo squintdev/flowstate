@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 const App = () => {
 
   return (
-    <div className="bg-retro-screen h-screen font-lcd font-bold text-primary-dark p-4">
+    <div className="bg-retro-screen h-screen font-lcd font-bold text-primary-dark py-4 w-full">
       <Header />
       <Tasks />
       <Footer />

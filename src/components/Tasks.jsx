@@ -83,7 +83,7 @@ const Tasks = () => {
 
             </form>
 
-                  <ul className="mt-8 text-left taskList">
+                  <ul className="my-10 text-left taskList">
                     {tasks.map((task, index) => {
                       return (
                        
