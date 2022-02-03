@@ -8,6 +8,7 @@ module.exports = {
       'primary-dark': '#252911',
       'retro-shadow': '#5c6144',
       'dark-active': '#22260e',
+      'white': '#ffffff',
     },
     fontFamily: {
       'lcd': ['"ds-digital"', 'cursive'],
@@ -15,6 +16,7 @@ module.exports = {
     extend: {
       dropShadow: {
         'retro': '3px 3px 0 rgb(92, 97, 68, 1)',
+        'retro-mobile': '1px 1px 0 rgb(92, 97, 68, 1)',
       }
     },
   },
