@@ -66,7 +66,7 @@ const Tasks = () => {
   }, [tasks]);
 
     return (
-        <div className="w-full m-auto mt-10 px-4 text-center lg:w-1/2">
+        <div className="w-full m-auto my-10 p-4 text-center lg:w-1/2">
 
             <form onSubmit={formSubmitted} autoComplete="off">
                 <div className="flex justify-between">
