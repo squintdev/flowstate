@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: 'ds-digital';
-    src: local('ds-digital'), url(./fonts/ds-digital-bold.TTF) format('ttf');
+    src: local('ds-digital'), url(./fonts/ds-digital-bold.woff) format('ttf');
 }
 
 @tailwind utilities;
